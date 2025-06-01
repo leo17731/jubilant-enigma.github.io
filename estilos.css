@@ -380,10 +380,18 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: white;
+    background-color: #040404; /* Negro o el color de tu menú */
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     list-style: none;
+}
+
+.dropdown li a {
+    color: #ffffff; /* blanco */
+}
+
+.dropdown li a:hover {
+    background-color: #333; /* o #a70a15, o el color que prefieras */
 }
 
 .navbar li:hover .dropdown {
